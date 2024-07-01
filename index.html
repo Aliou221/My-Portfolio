@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/monLogo.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media.css">
+        <title>Mon Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 class="logo">Mon Portfolio</h1>
+                    <nav class="navbar" id="navbar">
+                        <a href="#" class="active">Accueil</a>
+                        <a href="#propos">A Propos</a>
+                        <a href="#competence">Compétence</a>
+                        <a href="#realisations">Réalisations</a>
+                        <a href="#contact">Contacts</a>
+                    </nav>
+                    <button id="toggleMenu" onclick="opeMenu()">☰</button>
+            </div>
+            <div class="center">
+                <div class="flex">
+                    <div class="block w50">
+                        <h1 class="pad">Bievenue sur mon Portfolio</h1>
+                        <p class="pad">Découvrez mon parcours et mes réalisations en tant qu'étudiant en informatique, passioné de developpement web et d'innovation technologie.</p>    
+                        <div class="links pad">
+                            <a href="img/mon CV.pdf">Voir mon CV</a>
+                            <a href="#creation">Découvrir mes créations</a>
+                        </div>
+                    </div>
+                    <div class="w40">
+                        <div class="myimage">
+                            <img src="img/img-me.png" alt="monImage">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="APropos pad" id="propos">
+            <div class="flex start">
+                <div class="w40 w100">
+                    <h1 class="title">A Propos de moi</h1>
+                </div>
+                <div class="w50 w100">
+                    <p class="parag">Je m'appelle <span class="color">ALIOU CISSE</span>, étudiant en prèmiere année de licence en Infoematique à l'<span class="color">Université Iba Der Thiam</span> de <span>Thiès.</span> Passioné par le développement web, j'aspire a devenir développeur <span class="color">Full-Stack</span>. J'ai déja réalisé plusieurs sites web (Statiques), démontrant mes compétences technique et ma capacité à mener à bien des projets de bout en bout.</p>
+                </div>
+            </div>
+        </div>
+        <div class="competence pad" id="competence">
+            <h2>Competence</h2>
+            <div class="mesCompetences">
+                <div class="img">
+                    <img src="img/html-logo.png" alt="Html-logo">
+                    <h3>HTML</h3>
+                    <div class="divHtml"></div>
+                    <p class="pad5">100%</p>
+                </div>
+                <div class="img">
+                    <img src="img/css-logo.png" alt="css-logo">
+                    <h3>CSS</h3>
+                    <div class="divCss"></div>
+                    <p class="pad5">80%</p>
+                </div>
+
+                <div class="img">
+                    <img src="img/javaScript-logo.png" alt="Js-logo">
+                    <h3>JAVA SCRIPT</h3>
+                    <div class="divJS"></div>
+                    <p class="pad5">50%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="competence pad">
+            <h2>outils</h2>
+            <div class="mesCompetences">
+                <div class="img">
+                    <img src="img/github-logo.jpg" alt="github-logo">
+                    <h3>Github</h3>
+                    <div class="divGit"></div>
+                    <p class="pad5">50%</p>
+                </div>
+                <div class="img">
+                    <img src="img/git-logo.jpeg" alt="git-logo">
+                    <h3>Git</h3>
+                    <div class="divGit"></div>
+                    <p class="pad5">50%</p>
+                </div>
+                <div class="img">
+                    <img src="img/vscode-logo.png" alt="css-logo">
+                    <h3>VS Code</h3>
+                    <div class="divHtml"></div>
+                    <p class="pad5">100%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="competence pad bgColor" id="realisations" >
+            <h2 id="creation">réalisations</h2>
+            <div class="realisation grid2fr">
+                <div class="img gridImg">
+                    <img src="img/kreatify.jpeg" alt="Image-du-page-d'Accueil">
+                    <h3>Kreatify-Website</h3>
+                    <p class="pad5 padCote">Site Vitrine pour une entreprise créative, avec une interface utilisateur attrayante et réactive, présentant les services et les réalisations de l'entreprise.</p>
+                    <a href="https://aliou221.github.io/kreatify-website/">Cliquez ici</a>
+                </div>
+                <div class="img gridImg">
+                    <img src="img/img-agence-de-voyage.png" alt="Image-du-page-d'Accueil">
+                    <h3>Agence de voyage</h3>
+                    <p class="pad5 padCote">Site statique pour une agence de voyage, incluant des graphiques interactifs et des analyses de données pour faciliter la prise de décision.</p>
+                    <a href="https://aliou221.github.io/Code_Maestro/">Cliquez ici</a>
+                </div>
+                <div class="img gridI">
+                    <img src="img/e-learning.jpeg" alt="Image-du-page-d'Accueil">
+                    <h3>E-Learning</h3>
+                    <p class="pad5 padCote">Plteforme d'apprentissage en ligne, offrant des statistiques sur l'engagement et les performences des etudiants, avec un tableau de bord administrateur pour le suivi des cours.</p>
+                    <a href="https://aliou221.github.io/E-Learning/">Cliquez ici</a>
+                </div>
+                <div class="img gridI">
+                    <img src="img/img-agriculture.png" alt="Image-du-page-d'Accueil">
+                    <h3>Projet-Agriculture</h3>
+                    <p class="pad5 padCote">Outils de gestion pour les agriculteurs, permettant les données des cultures et optimiser les rendements grace à des analyses précise.</p>
+                    <a href="https://aliou221.github.io/Projet_Agriculture/">Cliquez ici</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="objectif animTitre">
+            <h2>objectifs Professionnels</h2>
+            <p>Mon Objectif est de devenir un developpeur Full-Stack compétent et polyvalent, capable de travailler sur des projets complexes et diversifiés. Je souhaite continuer à ameliorer mes compétences techniques et contribuer à des solutions innovantes qui résolvent des problemes réels.</p>
+        </div>
+
+        <footer>
+            <div class="footer" id="contact">
+                <div class="animTitre">
+                    <h2>Contactez-moi !!!</h2>
+                    <p>Je suis toujours à la recherche de nouvelles opportunités d'apprentissage et de collaboration.<br>Si vous êtes intéressé par mes compétences ou si vous avez un projet en tête, n'hésitez pas à me contacter.</p>
+                </div>
+                <div class="coordonnes">
+                    <div class="montele">
+                        <h3>Telephone</h3>
+                        <div class="imgTel">
+                            
+                            <a href="tel:+221760124302">
+                                <img src="img/icone-phone.png" alt="Telephone-logo">
+                            </a>
+                            
+                            <a href="tel:+221760124302">
+                                +221 76 012 43 02
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="montele">
+                        <h3>E-mail</h3>
+                        <div class="imgTel">
+                            
+                            <a href="mailto:cissealiou378@gmail.com">
+                                <img src="img/icone-mail.png" alt="logo-email">
+                            </a>
+                            <a href="mailto:cissealiou378@gmail.com">
+                                cissealiou378@gmail.com
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="montele">
+                        <h3>Whatsapp</h3>
+                        <div class="imgTel">
+                            <a href="https://wa.me/772091891">
+                                <img src="img/icone-Wtsp.png" alt="logo-whatsapp">
+                            </a>
+
+                            <a href="https://wa.me/772091891">
+                                +221 77 209 18 91
+                            </a>
+                        </div>
+                    </div>
+                    <div class="montele">
+                        <h3>Linkedine</h3>
+                        <div class="imgTel">
+                            <a href="https://www.linkedin.com/in/aliou-cisse-469a37271">
+                                <img src="img/icone-link.png" alt="logo-linkedin">
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/aliou-cisse-469a37271">
+                                Linkedin
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p">
+            <p>&copy;Aliou_Cisse - 2024 | Cite VCN UIDT (Université Iba Der Thiam de Thiès) - Chambre 12</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
